@@ -1,0 +1,28 @@
+filtro convulacional = filtro linear, que é uma média ponderada para calcular o valor do pixel
+espacialmente invariante = independente da posição na imagem, irá se comportar da mesma maneira
+
+filtro box = os pesos utilizados para fazer a média ponderada serão iguais
+
+kernel = nucleo do filtro convulacional
+
+1/9 = no final deve se multiplar por este valor
+
+O valor tem q ser inteiro
+
+Padding = preencher com 0 a matriz nas bordas
+Outra opção é repetir os valores das bordas
+
+Matriz da imagem
+[3,	3,	4,	5,	7,	8
+ 2,	8,	3,	4,	7,	8
+ 3,	4,	3,	6,	9,	8
+]
+x
+Kernel
+[1,	1,	1
+ 1,	1,	1
+ 1,	1,	1
+]
+___________________
+9
+
