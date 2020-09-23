@@ -1,3 +1,4 @@
+#executar o pip install --upgrade scikit-image
 from skimage.measure import compare_ssim #SSIM means Structural Similarity Index
 import argparse
 import imutils
